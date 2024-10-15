@@ -7424,11 +7424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eduardomartins/SimpleCrudApp/SimpleCrudApp.csproj",
+      "projectUniqueName": "/Users/eduardomartins/Documents/GitHub/ContabilAPI/SimpleCrudApp.csproj",
       "projectName": "SimpleCrudApp",
-      "projectPath": "/Users/eduardomartins/SimpleCrudApp/SimpleCrudApp.csproj",
+      "projectPath": "/Users/eduardomartins/Documents/GitHub/ContabilAPI/SimpleCrudApp.csproj",
       "packagesPath": "/Users/eduardomartins/.nuget/packages/",
-      "outputPath": "/Users/eduardomartins/SimpleCrudApp/obj/",
+      "outputPath": "/Users/eduardomartins/Documents/GitHub/ContabilAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eduardomartins/.nuget/NuGet/NuGet.Config"

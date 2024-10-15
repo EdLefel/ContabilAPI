@@ -16,14 +16,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-/*
-NÃO IMPLEMENTADO -> INVIÁVEL . *1
-
-builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
-
-// Registro do PdfService
-builder.Services.AddSingleton<PdfService>();
-*/
 
 builder.Services.AddControllers();
 var cultureInfo = new CultureInfo("pt-BR"); // ou a cultura que você está utilizando

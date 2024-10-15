@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SimpleCrudApp.client.models;
+using SimpleCrudApp.Model.Vendas;
 using SimpleCrudApp.models;
 namespace SimpleCrudApp.Data
 {
@@ -10,6 +11,7 @@ namespace SimpleCrudApp.Data
         public DbSet<Products> Produtos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Client> Clientes { get; set; }  
+        public DbSet<Venda> Vendas { get; set; }  
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -20,6 +22,8 @@ namespace SimpleCrudApp.Data
             modelBuilder.Entity<Usuario>().ToTable("usuarios");
 
             modelBuilder.Entity<Client>().ToTable("clientes");
+
+            modelBuilder.Entity<Venda>().ToTable("PedidoVendas");
 
         }
     }

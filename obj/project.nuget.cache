@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cv1if5+dOZM=",
+  "dgSpecHash": "6LJdJsp/Iec=",
   "success": true,
-  "projectFilePath": "/Users/eduardomartins/SimpleCrudApp/SimpleCrudApp.csproj",
+  "projectFilePath": "/Users/eduardomartins/Documents/GitHub/ContabilAPI/SimpleCrudApp.csproj",
   "expectedPackageFiles": [
     "/Users/eduardomartins/.nuget/packages/dinktopdf/1.0.8/dinktopdf.1.0.8.nupkg.sha512",
     "/Users/eduardomartins/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
